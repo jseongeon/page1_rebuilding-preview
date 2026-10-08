@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <!-- 인사이트 05 대표 그림: 꼬리를 무는 기록 다섯 장(SOP → 변경관리 → 교육 → 배치 → 감사추적)과 연결선 -->
+  <defs>
+    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1C1916" stroke-width="1"/></pattern>
+    <radialGradient id="glow" cx="85%" cy="20%" r="50%"><stop offset="0" stop-color="#F16123" stop-opacity=".2"/><stop offset="1" stop-color="#F16123" stop-opacity="0"/></radialGradient>
+    <linearGradient id="og" x1="0" x2="1"><stop offset="0" stop-color="#F7941D"/><stop offset="1" stop-color="#F16123"/></linearGradient>
+    <g id="lines"><rect x="22" y="78" width="150" height="7" fill="#2A2622"/><rect x="22" y="98" width="120" height="7" fill="#2A2622"/><rect x="22" y="118" width="140" height="7" fill="#2A2622"/></g>
+  </defs>
+  <rect width="1200" height="675" fill="#0A0908"/>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <rect width="1200" height="675" fill="url(#glow)"/>
+  <g font-family="Consolas, 'Cascadia Mono', 'SF Mono', monospace">
+    <!-- 연결선 -->
+    <polyline points="190,230 380,300 570,250 760,330 950,270" fill="none" stroke="url(#og)" stroke-width="2.5" stroke-dasharray="2 0"/>
+    <!-- 기록 카드 5장 -->
+    <g stroke-width="1.5">
+      <g transform="translate(100 160)"><rect width="190" height="150" fill="#0F0E0C" stroke="#3A342F"/><text x="22" y="40" font-size="13" letter-spacing="2" fill="#8C837B">01 · SOP</text><text x="22" y="64" font-size="20" font-weight="700" fill="#F4F0EB">QA-SOP v4.2</text><use href="#lines"/></g>
+      <g transform="translate(290 230)"><rect width="190" height="150" fill="#0F0E0C" stroke="#3A342F"/><text x="22" y="40" font-size="13" letter-spacing="2" fill="#8C837B">02 · CHANGE</text><text x="22" y="64" font-size="20" font-weight="700" fill="#F4F0EB">CC-2026-118</text><use href="#lines"/></g>
+      <g transform="translate(480 180)"><rect width="190" height="150" fill="#0F0E0C" stroke="#3A342F"/><text x="22" y="40" font-size="13" letter-spacing="2" fill="#8C837B">03 · TRAINING</text><text x="22" y="64" font-size="20" font-weight="700" fill="#F4F0EB">TR-0457</text><use href="#lines"/></g>
+      <g transform="translate(670 260)"><rect width="190" height="150" fill="#0F0E0C" stroke="#3A342F"/><text x="22" y="40" font-size="13" letter-spacing="2" fill="#8C837B">04 · BATCH</text><text x="22" y="64" font-size="20" font-weight="700" fill="#F4F0EB">BR-24-031</text><use href="#lines"/></g>
+      <g transform="translate(860 200)"><rect width="190" height="150" fill="#0F0E0C" stroke="url(#og)" stroke-width="2.5"/><text x="22" y="40" font-size="13" letter-spacing="2" fill="#F7941D">05 · AUDIT TRAIL</text><text x="22" y="64" font-size="20" font-weight="700" fill="#F4F0EB">LOG 1,284</text><use href="#lines"/></g>
+    </g>
+    <!-- 돋보기 -->
+    <g transform="translate(955 470)"><circle r="54" fill="none" stroke="#ADA49B" stroke-width="3"/><line x1="38" y1="38" x2="84" y2="84" stroke="#ADA49B" stroke-width="6"/><circle r="54" fill="#F16123" fill-opacity=".06"/></g>
+    <text x="100" y="560" font-size="40" font-weight="700" letter-spacing="1" fill="#F4F0EB">10 RECORDS</text>
+    <text x="100" y="600" font-size="16" letter-spacing="3" fill="#8C837B">REQUESTED ONE AFTER ANOTHER</text>
+    <rect x="100" y="622" width="120" height="3" fill="url(#og)"/>
+  </g>
+</svg>

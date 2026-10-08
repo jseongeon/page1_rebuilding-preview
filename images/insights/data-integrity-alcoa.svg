@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <!-- 인사이트 01 대표 그림: ALCOA+ 아홉 원칙 3x3 격자. 글자는 영문 모노만(이미지 안에서는 웹폰트가 안 먹는다) -->
+  <defs>
+    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1C1916" stroke-width="1"/></pattern>
+    <radialGradient id="glow" cx="78%" cy="30%" r="55%"><stop offset="0" stop-color="#F16123" stop-opacity=".22"/><stop offset="1" stop-color="#F16123" stop-opacity="0"/></radialGradient>
+    <linearGradient id="og" x1="0" x2="1"><stop offset="0" stop-color="#F7941D"/><stop offset="1" stop-color="#F16123"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="#0A0908"/>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <rect width="1200" height="675" fill="url(#glow)"/>
+  <g font-family="Consolas, 'Cascadia Mono', 'SF Mono', monospace" text-anchor="middle">
+    <g transform="translate(360 150)">
+      <g fill="#0F0E0C" stroke="#3A342F" stroke-width="1.5">
+        <rect x="0" y="0" width="160" height="130"/><rect x="160" y="0" width="160" height="130"/><rect x="320" y="0" width="160" height="130"/>
+        <rect x="0" y="130" width="160" height="130"/><rect x="160" y="130" width="160" height="130"/><rect x="320" y="130" width="160" height="130"/>
+        <rect x="0" y="260" width="160" height="130"/><rect x="160" y="260" width="160" height="130"/><rect x="320" y="260" width="160" height="130"/>
+      </g>
+      <rect x="0" y="130" width="160" height="130" fill="none" stroke="url(#og)" stroke-width="3"/>
+      <g font-size="64" font-weight="700" fill="#F4F0EB">
+        <text x="80" y="84">A</text><text x="240" y="84">L</text><text x="400" y="84">C</text>
+        <text x="80" y="214" fill="url(#og)">O</text><text x="240" y="214">A</text><text x="400" y="214" fill="#8C837B">C</text>
+        <text x="80" y="344" fill="#8C837B">C</text><text x="240" y="344" fill="#8C837B">E</text><text x="400" y="344" fill="#8C837B">A</text>
+      </g>
+      <g font-size="13" letter-spacing="1.5" fill="#ADA49B">
+        <text x="80" y="112">ATTRIBUTABLE</text><text x="240" y="112">LEGIBLE</text><text x="400" y="112">CONTEMPORANEOUS</text>
+        <text x="80" y="242">ORIGINAL</text><text x="240" y="242">ACCURATE</text><text x="400" y="242">COMPLETE</text>
+        <text x="80" y="372">CONSISTENT</text><text x="240" y="372">ENDURING</text><text x="400" y="372">AVAILABLE</text>
+      </g>
+    </g>
+  </g>
+  <text x="1140" y="615" text-anchor="end" font-family="Consolas, 'Cascadia Mono', 'SF Mono', monospace" font-size="40" font-weight="700" letter-spacing="2" fill="#F4F0EB">ALCOA<tspan fill="url(#og)">+</tspan></text>
+  <rect x="60" y="600" width="120" height="3" fill="url(#og)"/>
+</svg>

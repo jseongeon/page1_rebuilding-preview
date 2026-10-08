@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <!-- 인사이트 10 대표 그림: 병원 홈페이지 와이어프레임 위 후기·최고 표현·할인 문구에 경고 표시. 글자는 영문 모노만 -->
+  <defs>
+    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1C1916" stroke-width="1"/></pattern>
+    <radialGradient id="glow" cx="85%" cy="18%" r="50%"><stop offset="0" stop-color="#F16123" stop-opacity=".2"/><stop offset="1" stop-color="#F16123" stop-opacity="0"/></radialGradient>
+    <linearGradient id="og" x1="0" x2="1"><stop offset="0" stop-color="#F7941D"/><stop offset="1" stop-color="#F16123"/></linearGradient>
+    <g id="warn"><path d="M0-16L15 10H-15Z" fill="#0A0908" stroke="url(#og)" stroke-width="2.5" stroke-linejoin="round"/><text y="6" font-size="15" font-weight="700" text-anchor="middle" fill="#F7941D">!</text></g>
+    <g id="ln"><rect width="130" height="7" fill="#2A2622"/><rect y="18" width="100" height="7" fill="#2A2622"/></g>
+  </defs>
+  <rect width="1200" height="675" fill="#0A0908"/>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <rect width="1200" height="675" fill="url(#glow)"/>
+  <g font-family="Consolas, 'Cascadia Mono', 'SF Mono', monospace">
+    <!-- 브라우저 창 -->
+    <g transform="translate(500 70)">
+      <rect width="620" height="500" fill="#0F0E0C" stroke="#3A342F" stroke-width="1.5"/>
+      <rect x=".75" y=".75" width="618.5" height="36" fill="#15130F"/>
+      <circle cx="22" cy="19" r="5" fill="#3A342F"/><circle cx="40" cy="19" r="5" fill="#3A342F"/><circle cx="58" cy="19" r="5" fill="#3A342F"/>
+      <rect x="90" y="12" width="300" height="14" rx="7" fill="#2A2622"/>
+      <rect x="30" y="58" width="90" height="10" fill="#2A2622"/><rect x="400" y="58" width="50" height="10" fill="#2A2622"/><rect x="470" y="58" width="50" height="10" fill="#2A2622"/><rect x="540" y="58" width="50" height="10" fill="#2A2622"/>
+      <!-- 히어로: 최고 표현 -->
+      <rect x="30" y="88" width="560" height="130" fill="#1C1916"/>
+      <text x="56" y="140" font-size="26" font-weight="700" fill="#F4F0EB">BEST CLINIC IN TOWN</text>
+      <path d="M56 154H360" stroke="#F7941D" stroke-width="2" stroke-dasharray="6 5"/>
+      <use href="#ln" x="56" y="172"/>
+      <use href="#warn" x="400" y="132"/>
+      <!-- 카드 3장: 후기, 전후 사진, 할인 -->
+      <g stroke="#3A342F" stroke-width="1.5" fill="#0F0E0C"><rect x="30" y="240" width="176" height="150"/><rect x="222" y="240" width="176" height="150"/><rect x="414" y="240" width="176" height="150"/></g>
+      <g font-size="12" letter-spacing="2" fill="#8C837B"><text x="48" y="270">REVIEWS</text><text x="240" y="270">BEFORE/AFTER</text><text x="432" y="270">EVENT</text></g>
+      <text x="48" y="304" font-size="15" font-weight="700" fill="#F4F0EB">"CURED IN</text><text x="48" y="326" font-size="15" font-weight="700" fill="#F4F0EB">ONE DAY"</text>
+      <rect x="240" y="288" width="64" height="70" fill="#2A2622"/><rect x="316" y="288" width="64" height="70" fill="#3A342F"/>
+      <text x="432" y="330" font-size="40" font-weight="700" fill="url(#og)">-50%</text>
+      <use href="#warn" x="180" y="366"/><use href="#warn" x="372" y="366"/><use href="#warn" x="564" y="366"/>
+      <!-- 의료진 소개: 통과 -->
+      <rect x="30" y="410" width="560" height="64" fill="#15130F"/>
+      <circle cx="66" cy="442" r="18" fill="#2A2622"/><use href="#ln" x="100" y="430"/>
+      <text x="470" y="447" font-size="12" letter-spacing="2" fill="#8C837B">DOCTORS</text>
+    </g>
+    <!-- 왼쪽 범례 -->
+    <g font-size="15" letter-spacing="2" fill="#ADA49B"><use href="#warn" x="96" y="186"/><text x="128" y="192">PATIENT REVIEWS</text><use href="#warn" x="96" y="246"/><text x="128" y="252">"BEST" CLAIMS</text><use href="#warn" x="96" y="306"/><text x="128" y="312">DISCOUNT EVENTS</text></g>
+    <text x="80" y="560" font-size="44" font-weight="700" letter-spacing="1" fill="#F4F0EB">MEDICAL AD</text>
+    <text x="80" y="600" font-size="16" letter-spacing="3" fill="#8C837B">NO PRE-REVIEW, SAME RULES</text>
+    <rect x="80" y="622" width="120" height="3" fill="url(#og)"/>
+  </g>
+</svg>

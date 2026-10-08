@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <!-- 인사이트 02 대표 그림: 개정 초안 문서 두 장(Annex 11 · 신설 Annex 22)과 일정 선. 2026 Q4 는 목표(TARGET)로만 표기 -->
+  <defs>
+    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1C1916" stroke-width="1"/></pattern>
+    <radialGradient id="glow" cx="22%" cy="70%" r="55%"><stop offset="0" stop-color="#F16123" stop-opacity=".2"/><stop offset="1" stop-color="#F16123" stop-opacity="0"/></radialGradient>
+    <linearGradient id="og" x1="0" x2="1"><stop offset="0" stop-color="#F7941D"/><stop offset="1" stop-color="#F16123"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="#0A0908"/>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <rect width="1200" height="675" fill="url(#glow)"/>
+  <g font-family="Consolas, 'Cascadia Mono', 'SF Mono', monospace">
+    <!-- 문서 1: Annex 11 -->
+    <g transform="translate(300 120) rotate(-4)">
+      <rect width="300" height="380" fill="#0F0E0C" stroke="#3A342F" stroke-width="1.5"/>
+      <text x="28" y="52" font-size="14" letter-spacing="3" fill="#8C837B">EUDRALEX VOL.4</text>
+      <text x="28" y="104" font-size="42" font-weight="700" fill="#F4F0EB">ANNEX 11</text>
+      <text x="28" y="134" font-size="13" letter-spacing="2" fill="#ADA49B">COMPUTERISED SYSTEMS</text>
+      <g fill="#2A2622"><rect x="28" y="170" width="244" height="8"/><rect x="28" y="194" width="210" height="8"/><rect x="28" y="218" width="236" height="8"/><rect x="28" y="242" width="180" height="8"/><rect x="28" y="266" width="226" height="8"/><rect x="28" y="290" width="150" height="8"/></g>
+      <rect x="28" y="326" width="120" height="30" fill="none" stroke="url(#og)" stroke-width="2"/>
+      <text x="88" y="347" font-size="14" letter-spacing="3" text-anchor="middle" fill="#F7941D">REVISION</text>
+    </g>
+    <!-- 문서 2: Annex 22 (AI) -->
+    <g transform="translate(610 150) rotate(3)">
+      <rect width="300" height="380" fill="#0F0E0C" stroke="#3A342F" stroke-width="1.5"/>
+      <text x="28" y="52" font-size="14" letter-spacing="3" fill="#8C837B">EUDRALEX VOL.4</text>
+      <text x="28" y="104" font-size="42" font-weight="700" fill="#F4F0EB">ANNEX 22</text>
+      <text x="28" y="134" font-size="13" letter-spacing="2" fill="#ADA49B">ARTIFICIAL INTELLIGENCE</text>
+      <g stroke="#5A524B" stroke-width="1.5"><line x1="80" y1="200" x2="150" y2="170"/><line x1="80" y1="200" x2="150" y2="230"/><line x1="80" y1="260" x2="150" y2="230"/><line x1="80" y1="260" x2="150" y2="290"/><line x1="150" y1="170" x2="220" y2="230"/><line x1="150" y1="230" x2="220" y2="230"/><line x1="150" y1="290" x2="220" y2="230"/></g>
+      <g fill="#0A0908" stroke="#ADA49B" stroke-width="2"><circle cx="80" cy="200" r="9"/><circle cx="80" cy="260" r="9"/><circle cx="150" cy="170" r="9"/><circle cx="150" cy="230" r="9"/><circle cx="150" cy="290" r="9"/></g>
+      <circle cx="220" cy="230" r="11" fill="url(#og)"/>
+      <rect x="28" y="326" width="96" height="30" fill="none" stroke="url(#og)" stroke-width="2"/>
+      <text x="76" y="347" font-size="14" letter-spacing="3" text-anchor="middle" fill="#F7941D">NEW</text>
+    </g>
+    <!-- 일정 선 -->
+    <line x1="160" y1="600" x2="1040" y2="600" stroke="#3A342F" stroke-width="2"/>
+    <line x1="160" y1="600" x2="740" y2="600" stroke="url(#og)" stroke-width="2"/>
+    <g fill="#0A0908" stroke-width="2"><circle cx="160" cy="600" r="8" stroke="#ADA49B"/><circle cx="740" cy="600" r="8" stroke="#F16123"/><circle cx="1040" cy="600" r="8" stroke="#ADA49B" stroke-dasharray="3 3"/></g>
+    <g font-size="15" letter-spacing="2" fill="#ADA49B" text-anchor="middle">
+      <text x="160" y="636">2011 IN FORCE</text><text x="740" y="636" fill="#F4F0EB">2025 DRAFT</text><text x="1040" y="636">2026 Q4 TARGET</text>
+    </g>
+  </g>
+</svg>
