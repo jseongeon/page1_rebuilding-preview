@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <!-- 인사이트 09 대표 그림: 개인 PC·메신저·메일·개인 클라우드에 흩어진 파일이 팀 소유 공용 폴더 하나로 모인다 -->
+  <defs>
+    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1C1916" stroke-width="1"/></pattern>
+    <radialGradient id="glow" cx="85%" cy="20%" r="50%"><stop offset="0" stop-color="#F16123" stop-opacity=".2"/><stop offset="1" stop-color="#F16123" stop-opacity="0"/></radialGradient>
+    <linearGradient id="og" x1="0" x2="1"><stop offset="0" stop-color="#F7941D"/><stop offset="1" stop-color="#F16123"/></linearGradient>
+    <g id="f"><path d="M0 0h44l16 16v56H0z" fill="#0F0E0C" stroke="#ADA49B" stroke-width="1.5"/><path d="M44 0v16h16" fill="none" stroke="#ADA49B" stroke-width="1.5"/><rect x="10" y="30" width="34" height="5" fill="#2A2622"/><rect x="10" y="42" width="26" height="5" fill="#2A2622"/></g>
+  </defs>
+  <rect width="1200" height="675" fill="#0A0908"/>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <rect width="1200" height="675" fill="url(#glow)"/>
+  <g font-family="Consolas, 'Cascadia Mono', 'SF Mono', monospace">
+    <!-- 모이는 선 -->
+    <g fill="none" stroke="url(#og)" stroke-width="2" stroke-dasharray="6 6">
+      <path d="M150 146L780 250"/><path d="M370 236L780 280"/><path d="M180 326L780 310"/><path d="M400 366L780 340"/>
+    </g>
+    <!-- 흩어진 파일 -->
+    <g font-size="13" letter-spacing="2" fill="#8C837B" text-anchor="middle">
+      <use href="#f" x="120" y="110"/><text x="150" y="210">PC</text>
+      <use href="#f" x="340" y="200"/><text x="370" y="300">CHAT</text>
+      <use href="#f" x="150" y="290"/><text x="180" y="390">MAIL</text>
+      <use href="#f" x="370" y="330"/><text x="400" y="430">CLOUD</text>
+    </g>
+    <!-- 공용 폴더 -->
+    <g transform="translate(780 160)" text-anchor="middle">
+      <path d="M0 0h110l20 24h170v206H0z" fill="#0F0E0C" stroke="url(#og)" stroke-width="2.5"/>
+      <use href="#f" x="50" y="60"/><use href="#f" x="120" y="60"/><use href="#f" x="190" y="60"/>
+      <text x="150" y="182" font-size="24" font-weight="700" fill="#F4F0EB">SHARED DRIVE</text>
+      <text x="150" y="208" font-size="13" letter-spacing="2" fill="#F7941D">OWNER: TEAM</text>
+    </g>
+    <text x="100" y="560" font-size="40" font-weight="700" letter-spacing="1" fill="#F4F0EB">FILES STAY WHEN PEOPLE LEAVE</text>
+    <text x="100" y="600" font-size="16" letter-spacing="3" fill="#8C837B">PC · CHAT · MAIL · CLOUD → SHARED DRIVE</text>
+    <rect x="100" y="622" width="120" height="3" fill="url(#og)"/>
+  </g>
+</svg>

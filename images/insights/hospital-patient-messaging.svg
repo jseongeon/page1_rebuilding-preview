@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <!-- 인사이트 11 대표 그림: 진료 단계 시간축 위 안내 말풍선 4개, 마지막 하나만 AD. 글자는 영문 모노만 -->
+  <defs>
+    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1C1916" stroke-width="1"/></pattern>
+    <radialGradient id="glow" cx="85%" cy="20%" r="50%"><stop offset="0" stop-color="#F16123" stop-opacity=".2"/><stop offset="1" stop-color="#F16123" stop-opacity="0"/></radialGradient>
+    <linearGradient id="og" x1="0" x2="1"><stop offset="0" stop-color="#F7941D"/><stop offset="1" stop-color="#F16123"/></linearGradient>
+    <path id="bub" d="M14 0H186A14 14 0 0 1 200 14V116A14 14 0 0 1 186 130H118L100 158L82 130H14A14 14 0 0 1 0 116V14A14 14 0 0 1 14 0Z"/>
+    <g id="ln"><rect width="150" height="7" fill="#2A2622"/><rect y="18" width="110" height="7" fill="#2A2622"/></g>
+  </defs>
+  <rect width="1200" height="675" fill="#0A0908"/>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <rect width="1200" height="675" fill="url(#glow)"/>
+  <g font-family="Consolas, 'Cascadia Mono', 'SF Mono', monospace">
+    <!-- 시간축 -->
+    <line x1="100" y1="440" x2="1090" y2="440" stroke="#3A342F" stroke-width="2"/>
+    <path d="M1080 432L1094 440L1080 448" fill="none" stroke="#3A342F" stroke-width="2"/>
+    <g fill="#0A0908" stroke="#ADA49B" stroke-width="2.5"><circle cx="210" cy="440" r="7"/><circle cx="450" cy="440" r="7"/><circle cx="690" cy="440" r="7"/></g>
+    <circle cx="930" cy="440" r="8" fill="url(#og)"/>
+    <g font-size="15" font-weight="700" letter-spacing="2" fill="#F4F0EB" text-anchor="middle"><text x="210" y="478">D-1</text><text x="450" y="478">D-DAY</text><text x="690" y="478">D+1</text><text x="930" y="478" fill="#F7941D">D+30</text></g>
+    <!-- 안내 말풍선 3개 -->
+    <g fill="#0F0E0C" stroke="#3A342F" stroke-width="1.5"><use href="#bub" x="110" y="250"/><use href="#bub" x="350" y="250"/><use href="#bub" x="590" y="250"/></g>
+    <g font-size="12" letter-spacing="2" fill="#8C837B"><text x="132" y="282">INFO</text><text x="372" y="282">INFO</text><text x="612" y="282">INFO</text></g>
+    <g font-size="17" font-weight="700" fill="#F4F0EB"><text x="132" y="310">BOOKING 10:30</text><text x="372" y="310">FAST 8H</text><text x="612" y="310">AFTERCARE</text></g>
+    <use href="#ln" x="132" y="328"/><use href="#ln" x="372" y="328"/><use href="#ln" x="612" y="328"/>
+    <!-- 마지막 말풍선: 광고 -->
+    <use href="#bub" x="830" y="250" fill="#0F0E0C" stroke="url(#og)" stroke-width="2.5"/>
+    <text x="852" y="282" font-size="12" letter-spacing="2" fill="#F7941D">(AD)</text>
+    <text x="852" y="310" font-size="17" font-weight="700" fill="#F4F0EB">CHECK-UP -30%</text>
+    <use href="#ln" x="852" y="328"/>
+    <rect x="990" y="226" width="64" height="34" rx="17" fill="url(#og)"/>
+    <text x="1022" y="249" font-size="17" font-weight="700" text-anchor="middle" fill="#0A0908">AD</text>
+    <text x="80" y="570" font-size="40" font-weight="700" letter-spacing="1" fill="#F4F0EB">INFO OR AD?</text>
+    <text x="80" y="608" font-size="16" letter-spacing="3" fill="#8C837B">WHERE A PATIENT MESSAGE BECOMES AN AD</text>
+    <rect x="80" y="630" width="120" height="3" fill="url(#og)"/>
+  </g>
+</svg>
